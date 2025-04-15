@@ -181,13 +181,13 @@ font-size: 18px;
   #review-meta{
     top:270%;
     left: 8%;
-    width: 80%;
+    width: 95%;
     height: 60%;
   }
   #review-google{
     top: 205%;
     left:10%;
-    width: 80%;
+    width: 95%;
     height: 60%;
   }
 }

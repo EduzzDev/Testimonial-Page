@@ -193,7 +193,7 @@ font-size: 18px;
 }
 
 /* portrait*/
-@media (max-width:790px)  and (orientation:portrait){
+@media (max-width:890px)  and (orientation:portrait){
   main {
     left:-60px;
     position:relative;
@@ -201,41 +201,50 @@ font-size: 18px;
     
   }
   .text-review{
-    font-size: 20px;
+    font-size:4vw;
+    line-height: 6vw;
+    word-spacing: 2vw;
     color: #52525A;
-    width:105%;
+    width:98vw;
   } 
   #review-google{
-    top:65%;
+    top:100vw;
     left:1%;
     background-color:#FFFFFF;
-    height:20%;
-    width:70%;  
+    height:25vw;
+    width:98vw;  
    }
    #review-meta{
-     top:95%;
-     left:1%;
-     height:20%;
-     width:70%;
+     top:130vw;
+     left:-1vw;
+     height:25vw;
+     width:98vw;
     }
     .text{
       font-size: 16px;
+    }
+    .check-list,h3 {
+      font-size: 3vw;
+      margin: 2vw;
+    }
+    .text p,h2 {
+      font-size:3vw;
     }
 }
 
 @media (min-width:220px) and (max-width:450px) and (orientation:portrait){ 
   .text-review{
-    font-size: 18px;
+    font-size: 8vw;
     color: #52525A;
-    width:50%;
+    width:96vw;
     height:22%;
     line-height: 130%;
   } 
   #review-google{
-    top:80%;
-    height:36%;
+    top:210vw;
+    height:50vw;
     letter-spacing: 0.1px;
-    width:100%;
+    width:100vw;
     left:-2%;
     margin-top:38%;
   }
@@ -248,16 +257,21 @@ font-size: 18px;
     
   }
   #review-meta{
-    top:148%;
-    height:36%;
+    top:305vw;
+    height:50vw;
     left:-2%;
+    width:102vw;
   }
   .check{
     width:54%;
     height: 30%;
   }
-  .text p{
+  .text p,h2{
    width: 160%;
-  
+   font-size: 5vw;
+  }
+  .check-list, h3 {
+    font-size: 5vw;
+    margin: 3vw;
   }
 }
